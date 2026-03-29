@@ -1,21 +1,35 @@
 # 16-bit ALU Design using Verilog
 
-This project implements a 16-bit Arithmetic Logic Unit (ALU).
+## 📌 Overview
+This project implements a 16-bit Arithmetic Logic Unit (ALU) using Verilog HDL. The ALU performs arithmetic, logical, and shift operations and generates status flags.
 
-## Operations
+## ⚙️ Operations
 - Addition
 - Subtraction
-- AND, OR, XOR, NOT
-- Shift Left, Shift Right
+- AND
+- OR
+- XOR
+- NOT
+- Shift Left
+- Shift Right
 
-## Flags
+## 🚩 Flags
 - Carry
 - Zero
 - Sign
 - Overflow
 
-## Tools Used
+## 🧠 Design Details
+- Structural modeling using Full Adders
+- Ripple Carry Adder (16-bit)
+- Behavioral ALU control using case statements
+
+## 🧪 Simulation
+- Verified using testbench
+- Waveform analysis included
+
+## 🛠 Tools Used
 - ModelSim
 
-## Description
-The ALU is designed using structural and behavioral modeling. A ripple carry adder is used for arithmetic operations. The design is verified using a testbench and simulation.
+## 📷 Output Waveform
+![Waveform](wave.png)
