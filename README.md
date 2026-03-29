@@ -28,7 +28,7 @@ This project implements a 16-bit Arithmetic Logic Unit (ALU) using Verilog HDL. 
 - Verified using testbench
 - Waveform analysis included
 
-## 🛠 Tools Used
+## 🛠 Tool Used
 - ModelSim
 
 ## 📷 Output Waveform
